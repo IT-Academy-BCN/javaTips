@@ -1,5 +1,5 @@
 
-#javaTips
+# javaTips Project
 
 Proyecto modular Gradle con algunos tips y demos ;)
 
