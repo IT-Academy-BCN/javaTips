@@ -25,9 +25,6 @@ public class Main {
 
         myProps = new Properties();
 
-        System.out.println("******" + input == null);
-
-
         try {
             if (input !=null){
                 myProps.load(input);
