@@ -26,7 +26,7 @@ Ejecución de cada módulo:
 gradlew.bat :[nombreModulo]:run
 ```
 
+#### Módulos
 
-#### Callback Pattern
-
-Breve demo de patrón callback
+- <b>Callback Pattern</b>: Breve demo de patrón callback
+- <b>Properties</b>: Carga de fichero externo con propiedades. Acceso a propiedades del sistema
