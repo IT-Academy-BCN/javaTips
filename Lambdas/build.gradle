@@ -4,4 +4,4 @@ dependencies {
     compile 'log4j:log4j:1.2.17'
 }
 
-mainClassName = 'itacademy.streams.StreamBasic'
+mainClassName = 'itacademy.lambdas.Sorting'
