@@ -30,4 +30,7 @@ gradlew.bat :[nombreModulo]:run
 
 - <b>Callback Pattern</b>: Breve demo de patrón callback
 - <b>Properties</b>: Carga de fichero externo con propiedades. Acceso a propiedades del sistema
-- <b>BubbleSort</b>: Método de la burbuja (algoritmo de ordenación)
+- <b>Bubble</b>: Método de la burbuja (algoritmo de ordenación)
+- <b>Streams</b>: Uso de Streams (introducido en Java8), y diferencias con Java8-
+- <b>Lambdas</b>: Breve introducción al uso de lambda functions en Java
+- <b>Reflection</b>: Demo de uso de API Reflection para acceso a propiedades internas de los objetos Java

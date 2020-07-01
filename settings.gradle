@@ -3,4 +3,5 @@ include 'Properties'
 include 'Bubble'
 include 'Streams'
 include 'Lambdas'
+include 'Reflection'
 
