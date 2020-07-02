@@ -34,3 +34,4 @@ gradlew.bat :[nombreModulo]:run
 - <b>Streams</b>: Uso de Streams (introducido en Java8), y diferencias con Java8-
 - <b>Lambdas</b>: Breve introducción al uso de lambda functions en Java
 - <b>Reflection</b>: Demo de uso de API Reflection para acceso a propiedades internas de los objetos Java
+- <b>Inner Classes</b>: Breve demo de utilización de clases internas en Java 
