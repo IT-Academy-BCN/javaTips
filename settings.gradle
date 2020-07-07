@@ -6,4 +6,5 @@ include 'Lambdas'
 include 'Reflection'
 include 'InnerClasses'
 include 'Enumerations'
+include 'Restaurant'
 
