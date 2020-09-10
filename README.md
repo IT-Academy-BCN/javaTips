@@ -37,3 +37,4 @@ gradlew.bat :[nombreModulo]:run
 - <b>Inner Classes</b>: Breve demo de utilización de clases internas en Java 
 - <b>Enumerations</b>: Enum demo
 - <b>Restaurant</b>: Demo de utilización de threads productor-consumidor
+- <b>Polymorphism</b>: Demo utilización de polimorfismo y herencia
