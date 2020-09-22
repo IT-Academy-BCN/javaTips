@@ -1,0 +1,48 @@
+buildscript {
+    ext {
+        springBootPlugin = 'org.springframework.boot:spring-boot-gradle-plugin'
+        springBootVersion = '2.0.2.RELEASE'
+        thinPlugin = 'org.springframework.boot.experimental:spring-boot-thin-gradle-plugin'
+        thinVersion = '1.0.11.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("${springBootPlugin}:${springBootVersion}")
+        classpath("${thinPlugin}:${thinVersion}")
+    }
+}
+plugins {
+    id 'java'
+}
+
+version '0.0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+dependencies {
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'org.springframework.boot:spring-boot-starter-jdbc'
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'org.springframework:spring-tx'
+    compile 'org.springframework:spring-webmvc'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa'
+    runtimeOnly 'com.h2database:h2'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    // JAX-B dependencies for JDK 9+
+    implementation 'jakarta.xml.bind:jakarta.xml.bind-api:2.3.2'
+    implementation 'org.glassfish.jaxb:jaxb-runtime:2.3.2'
+}
+
+springBoot {
+    mainClassName = 'onetoone.App'
+}
