@@ -1,11 +1,10 @@
 
-
 ### One-To-One Example
 
 
 To run this example:
-+ Generate Gradle wrapper (in parent directory)
-+ Execute with command (parent directory)
++ Generate Gradle wrapper (parent directory)
++ Execute with command (from parent directory):
 
 ```
 ./gradlew OneToOne:bootRun
@@ -14,6 +13,9 @@ To run this example:
 #### Highlights
 
 + To access H2 Console: http://localhost:8080/h2-console/ (after Spring Boot initialization)
-+ application.properties in project
+    + <b>Warning</b>: URL of database has been changed; default url is not used
++ application.properties in project with DB user/password
 + Switching Database: H2-memory Database / h2-file database (application.properties)
 + JAX-B dependencies for JDK 9+ (JAXB not exists in JDK 9+, see build.gradle)
++ Spring Boot execute on initialization resources/schema.sql and resources/data.sql, in that order
+ 
