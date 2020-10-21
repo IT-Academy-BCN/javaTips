@@ -1,4 +1,10 @@
-INSERT INTO billionaires (first_name, last_name, career) VALUES
-('Aliko', 'Dangote', 'Billionaire Industrialist'),
-('Bill', 'Gates', 'Billionaire Tech Entrepreneur'),
-('Folrunsho', 'Alakija', 'Billionaire Oil Magnate');
+INSERT INTO student (firstName, lastName) VALUES
+('Bill', 'Gates'),
+('Rafa', 'Nadal'),
+('Angela', 'Merckel');
+
+/*
+INSERT INTO tuition (fee, student_id) VALUES
+(100000, 1),
+(50000, 2),
+(254000, 3);*/
