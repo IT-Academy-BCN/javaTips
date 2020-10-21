@@ -38,4 +38,5 @@ gradlew.bat :[nombreModulo]:run
 - <b>Enumerations</b>: Enum demo
 - <b>Restaurant</b>: Demo de utilización de threads productor-consumidor
 - <b>Polymorphism</b>: Demo utilización de polimorfismo y herencia
+- <b>RegExp</b>: Utilización de Regular Expressions en Java
 - <b>OneToOne</b>: Demo relación JPA One-To-One (Véase [README.md](OneToOne/README.md))

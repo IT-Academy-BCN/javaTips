@@ -8,5 +8,6 @@ include 'InnerClasses'
 include 'Enumerations'
 include 'Restaurant'
 include 'Polymorphism'
+include 'RegExp'
 include 'OneToOne'
 
