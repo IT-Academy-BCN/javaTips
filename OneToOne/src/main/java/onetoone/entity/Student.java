@@ -7,12 +7,18 @@ import java.io.Serializable;
 @Table(name = "student")
 public class Student implements Serializable {
 
+    private static final long serialVersionUID = 1L;
+
+    public Student(){
+
+    }
+
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="idStudent")
-    private Integer idStudent;
+    private int idStudent;
 
-    public Student(){}
 
     @Column(name="firstName")
     private String firstName;
@@ -24,7 +30,7 @@ public class Student implements Serializable {
     private Tuition tuition;*/
 
     //getters & setters
-    public Integer getIdStudent() {
+    public int getIdStudent() {
         return idStudent;
     }
 
@@ -36,9 +42,7 @@ public class Student implements Serializable {
         return lastName;
     }
 
-    public void setIdStudent(Integer idStudent) {
-        this.idStudent = idStudent;
-    }
+    public void setIdStudent(int idStudent) { this.idStudent = idStudent; }
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
