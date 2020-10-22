@@ -9,11 +9,6 @@ public class Student implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    public Student(){
-
-    }
-
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="idStudent")
@@ -28,6 +23,8 @@ public class Student implements Serializable {
 
 /*    @OneToOne(mappedBy = "student", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
     private Tuition tuition;*/
+
+    public Student(){}
 
     //getters & setters
     public int getIdStudent() {

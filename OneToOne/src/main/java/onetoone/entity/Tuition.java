@@ -3,17 +3,16 @@ package onetoone.entity;
 import javax.persistence.*;
 import java.io.Serializable;
 
-/*@Entity
-@Table(name = "tuition")*/
+@Entity
+@Table(name = "tuition")
 public class Tuition implements Serializable {
 
-/*    @Id
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="id_tuition")*/
-    private Long id;
+    @Column(name="idTuition")
+    private int idTuition;
 
     public Tuition(){}
-
 
     /*
     private Double fee;
@@ -24,6 +23,11 @@ public class Tuition implements Serializable {
         private Student student;*/
 
 
+    public int getIdTuition() {
+        return idTuition;
+    }
 
-
+    public void setIdTuition(int idTuition) {
+        this.idTuition = idTuition;
+    }
 }
