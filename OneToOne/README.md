@@ -18,4 +18,6 @@ To run this example:
 + Switching Database: H2-memory Database / h2-file database (application.properties)
 + JAX-B dependencies for JDK 9+ (JAXB not exists in JDK 9+, see build.gradle)
 + Spring Boot execute on initialization resources/schema.sql and resources/data.sql, in that order
++ OJO a:
+    - 
  
