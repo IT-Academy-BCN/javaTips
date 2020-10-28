@@ -14,6 +14,7 @@ public class Tuition implements Serializable {
 
     public Tuition(){}
 
+    @Column (name = "fee")
     private Double fee;
 
     /**
@@ -33,5 +34,13 @@ public class Tuition implements Serializable {
 
     public void setIdTuition(int idTuition) {
         this.idTuition = idTuition;
+    }
+
+    public Double getFee() {
+        return fee;
+    }
+
+    public void setFee(Double fee) {
+        this.fee = fee;
     }
 }
