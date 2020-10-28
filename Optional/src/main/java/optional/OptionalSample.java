@@ -12,7 +12,7 @@ public class OptionalSample {
         os.crash(TEST);
 
         Optional<String> optional = Optional.ofNullable(TEST);
-        os.optionalClause(optional);
+        os.avoidNulls(optional);
 
     }
 
@@ -20,25 +20,28 @@ public class OptionalSample {
         try {
             System.out.println(s.split(","));
         }catch(NullPointerException npe){
-            System.out.println(".... Avoiding nulls hell :( ");
+            System.out.println(".... Oooh, crash!!!! :( ");
         }
     }
 
 
 
 
-    void optionalClause(Optional<String> s){
+    void avoidNulls(Optional<String> s){
 
         System.out.println("Is Present?: " + s.isPresent());
         System.out.println("Is Empty?: " + s.isEmpty());
 
-      //  Optional<String> newOptional = Optional.ofNullable(TEST).orElse(this.getDefault());
+        //orElse
+        String newOptional = Optional.ofNullable(TEST).orElse("Filling null String");
+        System.out.println(newOptional);
 
-        s.ifPresent(name -> System.out.println( name + " is empty "));
-    }
+        //orElseGet
+        String anotherNewOptional = Optional.ofNullable(TEST).orElseGet(() -> "Filling again!!");
+        System.out.println(anotherNewOptional);
 
-    String getDefault(){
-        return "Filling null String";
+
+
     }
 
 }

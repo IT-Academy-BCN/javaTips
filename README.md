@@ -40,3 +40,4 @@ gradlew.bat :[nombreModulo]:run
 - <b>Polymorphism</b>: Demo utilización de polimorfismo y herencia
 - <b>RegExp</b>: Utilización de Regular Expressions en Java
 - <b>OneToOne</b>: Demo relación JPA One-To-One (Véase [README.md](OneToOne/README.md))
+- <b>Optional</b>: Demo utilización java.util.Optional (Java 8+);
