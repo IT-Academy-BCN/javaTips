@@ -41,3 +41,4 @@ gradlew.bat :[nombreModulo]:run
 - <b>RegExp</b>: Utilización de Regular Expressions en Java
 - <b>OneToOne</b>: Demo relación JPA One-To-One (Véase [README.md](OneToOne/README.md))
 - <b>Optional</b>: Demo utilización java.util.Optional (Java 8+);
+- <b>JacksonMapper</b>: Demo utilización Jackson para serialización / deserialización de objetos en JSON (véase https://www.baeldung.com/jackson-object-mapper-tutorial). 

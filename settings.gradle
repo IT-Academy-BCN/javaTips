@@ -11,4 +11,5 @@ include 'Polymorphism'
 include 'RegExp'
 include 'OneToOne'
 include 'Optional'
+include 'JacksonMapper'
 

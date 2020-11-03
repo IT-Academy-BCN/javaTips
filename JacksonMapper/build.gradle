@@ -1,0 +1,9 @@
+apply plugin: 'application'
+
+dependencies {
+    compile 'log4j:log4j:1.2.17'
+    compile group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: '2.11.2'
+
+}
+
+mainClassName = 'org.javaTips.jackson.annotation.Main'
