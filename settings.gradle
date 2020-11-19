@@ -12,4 +12,5 @@ include 'RegExp'
 include 'OneToOne'
 include 'Optional'
 include 'JacksonMapper'
+include 'Static'
 
