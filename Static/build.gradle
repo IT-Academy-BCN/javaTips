@@ -4,4 +4,4 @@ dependencies {
     compile 'log4j:log4j:1.2.17'
 }
 
-mainClassName = 'itacademy.regexp.TestRegularExpression'
+mainClassName = 'org.staticsample.Static'

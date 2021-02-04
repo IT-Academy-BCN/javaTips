@@ -42,3 +42,10 @@ gradlew.bat :[nombreModulo]:run
 - <b>OneToOne</b>: Demo relación JPA One-To-One (Véase [README.md](OneToOne/README.md))
 - <b>Optional</b>: Demo utilización java.util.Optional (Java 8+);
 - <b>JacksonMapper</b>: Demo utilización Jackson para serialización / deserialización de objetos en JSON (véase https://www.baeldung.com/jackson-object-mapper-tutorial). 
+
+
+Nota: Algunos de los ejemplos son adaptaciones de Thinking In Java - Bruce Eckel (véase https://www.mindviewinc.com/)
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct_EN.md) 
+ [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct_ES.md) 
+  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct_CA.md) 
